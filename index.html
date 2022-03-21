@@ -12,13 +12,17 @@
 <body>
     <div class="container">
         <header>
-            <h1>Carlos's main site</h1>
+            <h1>Carlos's main site</h1> 
             <h2 id="date"></h2>
+            <hr>
+            <form method="get" action="https://www.google.com/search" target="_blank">
+                <span id="google-search">Google Search:</span>  <input type="text" name="q" size="31" value="">
+            </form>
         </header>
 
         <main>
             <!-- News Links -->
-            <div class="row">
+            <div class="row" id="links">
                 <div class="col-lg-4 col-sm-12">
                     <p>
                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -67,7 +71,7 @@
                         </button>
                     </p>
                     <div class="collapse" id="collapseExample">
-                        <div class="card card-body">
+                        <div class="card card-body" id="sports-sites">
                           Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                         </div>
                     </div>

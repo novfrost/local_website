@@ -3,6 +3,11 @@ body {
     text-align: center;
 }
 
+header input {
+    border-radius: 5px;
+    margin: 25px 10px 0 10px;
+}
+
 header h2 {
     padding: 25px 0;
 }
@@ -16,6 +21,15 @@ button {
     border: none;
 }
 
-#tech-sites, #fin-sites {
+#google-search {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#links {
+    margin-top: 50px;
+}
+
+#tech-sites, #fin-sites, #sports-sites{
     text-align: left;
 }

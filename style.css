@@ -1,0 +1,21 @@
+body {
+    padding-top: 50px;
+    text-align: center;
+}
+
+header h2 {
+    padding: 25px 0;
+}
+
+button {
+    width: 70%;
+}
+
+.btn-primary {
+    background-color: #E86826;
+    border: none;
+}
+
+#tech-sites {
+    text-align: left;
+}

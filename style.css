@@ -12,6 +12,10 @@ header h2 {
     padding: 25px 0;
 }
 
+#personal-sites {
+    margin-top: 50px;
+}
+
 button {
     width: 70%;
 }
